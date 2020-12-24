@@ -1,0 +1,100 @@
+.numbersContainer{
+  background-color: #fcbf49;
+  width: 20%;
+  margin: 20px;
+  min-height: 600px;
+  border-radius: 32px;
+  overflow: auto;
+  text-align: center;
+  box-shadow: 0px 0px 6px #171717be;
+}
+
+.numberCase{
+  background-color: #eae2b7;
+  width: 60%;
+  min-height: 60px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  font-size: 30px;
+  overflow: auto;
+  text-align: center;
+}
+.numberCase:focus{
+  box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.548);
+}
+
+.addNumber{
+  margin-top: 16px;
+  margin-bottom: 16px;
+  text-align: center;
+  /* cursor: pointer; */
+}
+
+.addButton{
+  transition: .2s;
+}
+.addButton:hover{
+  /* box-shadow: 0px 1px 4px rgba(32, 32, 32, 0.685); */
+  transform: rotate(90deg);
+  transition: .2s;
+}
+
+.thisForm{
+  display: flex;
+  justify-content: space-around;
+}
+/* style={{ position: 'absolute', backgroundColor: 'black', height: '18px', width: '18px', borderRadius: '50%', top: '1px', left: '1px' }} */
+.togglerButton{
+  position: absolute;
+  background-color: #1f30ad;
+  height: 18px;
+  width: 18px;
+  border-radius: 50%;
+  top: 1px;
+  left: 1px;
+  cursor: pointer;
+}
+
+.togglerButton.descending{
+  left:41px;
+  transform: rotate(180deg);
+  transition: .3s;
+}
+
+.togglerButton.ascending{
+  left: 1px;
+  /* transform: rotate(-180deg); */
+  transition: .3s;
+}
+
+.resultContainer{
+  background-color: #fcbf49;
+  margin: 20px;
+  width: 20%;
+  min-height: 600px;
+  border-radius: 32px;
+  overflow: auto;
+  text-align: center;
+  box-shadow: 0px 0px 6px #171717be;
+}
+
+.resultNumberCase{
+  background-color: #eae2b7;
+  width: 60%;
+  min-height: 60px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  font-family: 'Prompt';
+  font-size: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
